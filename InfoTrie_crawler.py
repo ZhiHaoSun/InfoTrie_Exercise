@@ -10,7 +10,7 @@ import time, threading
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
-    # process the html content
+# process the html content
 def process(content, last_request_datetime):
     soup = bs4.BeautifulSoup(content, "html.parser")
 
